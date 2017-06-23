@@ -1,0 +1,105 @@
+<resources>
+    <string name="app_name">AireAMG</string>
+    <string name="action_settings">Créditos</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="title_activity_splash">Splash</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="open_drawer">open</string>
+    <string name="closed_drawer">closed</string>
+
+    <string name="downloadingkml">Obteniendo datos de la calidad del aire</string>
+    <string name="downloadingdata">Espere un momento...</string>
+
+    <string name="gotoGraphics">Más información ...</string>
+
+    <string-array name="titles">
+        <item>Opciones</item>
+        <item>Favoritos</item>
+        <item>Legal</item>
+    </string-array>
+
+    <array name="icons">
+        <item>@drawable/ic_media_play</item>
+        <item>@drawable/ic_setting_dark</item>
+        <!--<item></item>-->
+    </array>
+
+    <string name="construction">En Construcción</string>
+
+    <string name="fav_no_favs">No hay lugares guardados como favoritos aún</string>
+    <string name="fav_title">Guardar como favorito</string>
+    <string name="fav_name">Nombre</string>
+    <string name="fav_save">Guardar</string>
+    <string name="fav_cancel">Cancelar</string>
+    <string name="fav_delete">*Manten presionado el Favorito para eliminarlo</string>
+
+    <string name="info_simbologia">Simbología</string>
+
+    <string name="legal_title_desarrollo">DESARROLLO</string>
+    <string name="legal_title_financiamiento">FINANCIAMIENTO</string>
+    <string name="legal_title_info">INFORMACIÓN Y ASESORÍA</string>
+    <string name="legal_title_legal">SOBRE LOS DATOS</string>
+
+    <string name="legal_logo_iteso">Instituto Tecnológico de Estudios Superiores de Occidente</string>
+    <string name="legal_logo_shadow">Desarrollo de Aplicaciones Móviles</string>
+    <string name="legal_logo_secretaria">Secretaría de Innovación Ciencia y Tecnología de Jalisco</string>
+    <string name="legal_logo_secretaria2">Secretaría de Medio Ambiente y Desarrollo Territorial</string>
+    <string name="legal_logo_coecyt">Consejo Estatal de Ciencia y Tecnología de Jalisco</string>
+    <string name="legal_logo_simaj">Sistema de Monitoreo Atmosférico de Jalisco</string>
+    <string name="legal_logo_imeplan">Instituto Metropolitano de Planeación del Área Metropolitana de Guadalajara</string>
+    <string name="legal_logo_tabasco">Universidad Juárez Autónoma de Tabasco</string>
+
+    <string name="legal_disclaimer">
+        Esta aplicación está diseñada para proporcionar
+        pronósticos de calidad del aire en la Zona Metropolitana
+        de Guadalajara. La información de
+        calidad del aire que se presenta en la aplicación
+        es resultado de la aplicación de diversos algoritmos
+        de pronóstico e interpolación espacial. Para
+        estos cálculos se utiliza como insumo la información
+        de calidad ofrecida por el <b>Sistema de
+        Monitoreo Atmosférico de Jalisco SIMAJ</b>
+        (http://siga.jalisco.gob.mx/aire/).
+        \n\n
+        La validez de
+        estos resultados depende de diversos factores,
+        desde meteorológicos hasta humanos, por lo
+        que existe cierto grado de incertidumbre en la
+        información aquí presentada. Debido a estas
+        incertidumbres, <b>AireAMG</b> no ofrece ninguna
+        garantía expresa de que la información y pronósticos
+        sobre calidad del aire aquí presentados,
+        reflejen fielmente las condiciones reales de
+        calidad del aire.
+        \n\n
+        <b>AireAMG</b> requiere recopilar datos sobre su
+        ubicación para ser capaz de proporcionar información
+        sobre la calidad del aire en el lugar en
+        donde se encuentra. No es obligatorio proporcionar
+        sus datos personales, si no está de
+        acuerdo con la recopilación de datos de ubicación
+        de su dispositivo, deberá deshabilitar esta
+        función en la aplicación <b>AireAMG</b>. Si lo hace
+        continuará recibiendo información general de
+        calidad del aire en la Zona Metropolitana de
+        Guadalajara.
+        \n\n
+        <b>AireAMG</b> utiliza los datos de ubicación de su
+        dispositivo móvil para proporcionar información
+        sobre la calidad del aire en su posición específica.
+        <b>AireAMG</b> no almacena, procesa o transfiere
+        ningún dato de ubicación, por lo que tampoco
+        vende, alquila, arrienda, divulga, ni publica
+        información personal sobre la ubicación a ningún
+        tercero. No se recabará información adicional de
+        su dispositivo móvil para identificar datos
+        personales como nombre, dirección, correo,
+        teléfonos, contactos, contraseñas y otros.
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <!--<string name="hello_blank_fragment">Hello blank fragment</string>-->
+</resources>

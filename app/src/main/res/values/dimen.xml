@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="popuptextSize">17dp</dimen>
+    <dimen name="legal_title">25dp</dimen>
+    <dimen name="logo_under">16dp</dimen>
+    <dimen name="legal_info">15dp</dimen>
+</resources>

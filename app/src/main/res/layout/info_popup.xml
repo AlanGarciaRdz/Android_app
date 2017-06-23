@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/info_popupContainer"
+    android:background="@mipmap/infobackground">
+
+    <!--<ImageView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:src="@mipmap/infobackground"-->
+        <!--android:id="@+id/ivInfoBackground" />-->
+
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textAppearance="?android:attr/textAppearanceLarge"-->
+        <!--android:text="@string/info_simbologia"-->
+        <!--android:id="@+id/tvInfoTitle"-->
+        <!--android:paddingBottom="30dp"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_centerInParent="true"/>-->
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/simbologia"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:id="@+id/imageViewTitle" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/simbo_buena"
+        android:paddingTop="15dp"
+        android:layout_below="@+id/imageViewTitle"
+        android:layout_centerInParent="true"
+        android:id="@+id/imageView2" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/simbo_regular"
+        android:paddingTop="15dp"
+        android:layout_below="@id/imageView2"
+        android:layout_centerInParent="true"
+        android:id="@+id/imageView3" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/simbo_mala"
+        android:paddingTop="15dp"
+        android:layout_below="@id/imageView3"
+        android:layout_centerInParent="true"
+        android:id="@+id/imageView4" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/simbo_muymala"
+        android:paddingTop="15dp"
+        android:layout_below="@id/imageView4"
+        android:layout_centerInParent="true"
+        android:id="@+id/imageView5" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/simbo_extmala"
+        android:paddingTop="15dp"
+        android:layout_below="@id/imageView5"
+        android:layout_centerInParent="true"
+        android:id="@+id/imageView6" />
+</RelativeLayout>

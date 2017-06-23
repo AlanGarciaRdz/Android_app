@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:compat="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity" >
+    <item android:id="@+id/menu_info"
+        android:title="Simbología"
+        android:icon="@mipmap/infoicon"
+        compat:showAsAction="always"></item>
+    <item android:id="@+id/menu_fav"
+        android:title="Favorito"
+        android:icon="@mipmap/fav_star"
+        compat:showAsAction="always"></item>
+</menu>

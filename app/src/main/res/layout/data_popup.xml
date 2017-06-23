@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/popupContainer"
+    android:background="@drawable/popup_bg">
+    <!--style="@style/MyDialog">-->
+    <!--android:background="@mipmap/popupbackground_small">-->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/popupbackground_small"/>
+
+    <TextView
+        android:id="@+id/tvDataPopUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="45px"
+        android:text="Estado general del aire"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:paddingLeft="15px"
+        android:paddingTop="25px"
+        android:paddingBottom="25px"
+        android:id="@+id/popuptextContainer"
+        android:layout_below="@id/tvDataPopUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tvDataPopUpNow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="25px"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/popuptextSize"
+            android:text=""/>
+        <TextView
+            android:id="@+id/tvDataPopUpPlus1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="25px"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/popuptextSize"
+            android:text=""/>
+        <TextView
+            android:id="@+id/tvDataPopUpPlus2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="25px"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/popuptextSize"
+            android:text=""/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/gotoGraphics"
+        android:textStyle="bold"
+        android:id="@+id/buttonGraphics"
+        android:layout_below="@+id/popuptextContainer"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

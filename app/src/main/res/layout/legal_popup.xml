@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/popup_bg_legal">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@mipmap/legal_bg"/>
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_margin="20dp"
+        android:background="@color/colorTotalWhite"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- DESARROLLO -->
+
+            <TextView
+                android:id="@+id/textViewDesarrollo"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/legal_title_desarrollo"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="@dimen/legal_title"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+                android:padding="25px"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:src="@mipmap/divider"/>
+
+            <ImageView
+                android:id="@+id/imageViewLogoIteso"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:maxHeight="60px"
+                android:maxWidth="60px"
+                android:src="@mipmap/logoiteso"
+                android:padding="25px"/>
+
+            <TextView
+                android:id="@+id/textViewIteso"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/legal_logo_iteso"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="@dimen/logo_under"
+                android:padding="25px"/>
+
+            <ImageView
+                android:id="@+id/imageViewLogoShadow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:maxHeight="60px"
+                android:maxWidth="60px"
+                android:src="@mipmap/shadowforge"
+                android:padding="25px"/>
+
+            <TextView
+                android:id="@+id/textViewShadow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/legal_logo_shadow"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="@dimen/logo_under"
+                android:padding="25px"/>
+
+            <!-- FINANCIAMIENTO -->
+
+            <TextView
+                android:id="@+id/textViewFinanciamiento"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/legal_title_financiamiento"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="@dimen/legal_title"
+                android:textStyle="bold"
+                android:padding="25px"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:src="@mipmap/divider"/>
+
+            <ImageView
+                android:id="@+id/imageViewLogoSecretaria"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:maxHeight="60px"
+                android:maxWidth="60px"
+                android:src="@mipmap/secretariadeinnovacion"
+                android:padding="25px"/>
+
+            <TextView
+                android:id="@+id/textViewSecretaria"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/legal_logo_secretaria"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="@dimen/logo_under"
+                android:padding="25px"/>
+
+            <ImageView
+                android:id="@+id/imageViewLogoCoecyt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:maxHeight="60px"
+                android:maxWidth="60px"
+                android:src="@mipmap/coecytjal"
+                android:padding="25px"/>
+
+            <TextView
+                android:id="@+id/textViewCoecyt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/legal_logo_coecyt"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="@dimen/logo_under"
+                android:padding="25px"/>
+
+
+            <!-- INFORMACION Y ASESORIA -->
+
+            <TextView
+                android:id="@+id/textViewInfo"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/legal_title_info"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="@dimen/legal_title"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+                android:padding="25px"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:src="@mipmap/divider"/>
+
+            <ImageView
+                android:id="@+id/imageViewLogoSecretaria2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:maxHeight="60px"
+                android:maxWidth="60px"
+                android:src="@mipmap/secretariademedio"
+                android:padding="25px"/>
+
+            <TextView
+                android:id="@+id/textViewSecretaria2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/legal_logo_secretaria2"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="@dimen/logo_under"
+                android:padding="25px"/>
+
+            <ImageView
+                android:id="@+id/imageViewLogoSimaj"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:maxHeight="60px"
+                android:maxWidth="60px"
+                android:src="@mipmap/simaj"
+                android:padding="25px"/>
+
+            <TextView
+                android:id="@+id/textViewSimaj"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/legal_logo_simaj"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="@dimen/logo_under"
+                android:padding="25px"/>
+
+            <ImageView
+                android:id="@+id/imageViewLogoImeplan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:maxHeight="60px"
+                android:maxWidth="60px"
+                android:src="@mipmap/imeplan"
+                android:padding="25px"/>
+
+            <TextView
+                android:id="@+id/textViewImeplan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/legal_logo_imeplan"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="@dimen/logo_under"
+                android:padding="25px"/>
+
+            <ImageView
+                android:id="@+id/imageViewLogoTabasco"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:maxHeight="60px"
+                android:maxWidth="60px"
+                android:src="@mipmap/tabasco"
+                android:padding="25px"/>
+
+            <TextView
+                android:id="@+id/textViewTabasco"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/legal_logo_tabasco"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="@dimen/logo_under"
+                android:padding="25px"/>
+
+
+
+            <!-- LEGAL -->
+
+            <TextView
+                android:id="@+id/textViewLegalDatos"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/legal_title_legal"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="@dimen/legal_title"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+                android:padding="25px"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:src="@mipmap/divider"/>
+
+            <TextView
+                android:id="@+id/textViewLegalDisclaimer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center_vertical|right"
+                android:text="@string/legal_disclaimer"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="@dimen/legal_info"
+                android:padding="25px"/>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>
